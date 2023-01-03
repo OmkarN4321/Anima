@@ -1,0 +1,280 @@
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 100;
+	src: url("/fonts/Poppins-Thin.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 200;
+	src: url("/fonts/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	src: url("/fonts/Poppins-Light-.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	src: url("/fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 700;
+	src: url("/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	src: url("/fonts/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 900;
+	src: url("/fonts/Poppins-Black.ttf") format("truetype");
+}
+
+* {
+	outline: none;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	transition: background-color 0.3s ease-in-out;
+}
+
+html,
+body {
+	min-height: 100vh;
+	font-family: "Poppins", sans-serif;
+	color: #e0e0e0;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+applet,
+object,
+iframe,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+ul,
+ol,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	outline: none;
+	color: inherit;
+}
+
+button {
+	padding: 0;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-family: inherit;
+	background-color: transparent;
+}
+
+address {
+	font-style: normal;
+}
+
+img {
+	display: block;
+	object-fit: contain;
+}
+
+svg {
+	display: block;
+}
+
+input {
+	font-family: inherit;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0 1000px white inset !important;
+	color: var(--primary-black);
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+:not(.show-scrollbar)::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	display: none;
+	background: transparent;
+}
+
+:not(.show-scrollbar)::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	display: none;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}
