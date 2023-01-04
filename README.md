@@ -1,38 +1,33 @@
-# create-svelte
+# Anima
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+#### An anime streaming and discovery web-app built on Nextjs.
 
-## Creating a project
+#### If this project helped you, a star would be appreciated.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Lets user explore the ever ending anime space with categories and anime related stats.
 
-# create a new project in my-app
-npm create svelte@latest my-app
+- Free anime streaming, best experienced with an adblocker.
+
+- Beautiful and intuitive UI.
+
+## Future improvements
+
+- I am looking to work around the ads and provide a completely ad free experience. I don't control the ads, they are from the source.
+
+- Anyone could contribute to this project and help in making it better.
+
+## Commands to run
+
+##### Run project locally
+
 ```
+npm install
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## How it looks
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+##### Just see it yourself - [Anima](https://anima-woad.vercel.app)
