@@ -171,5 +171,8 @@
 		.card {
 			width: calc((100% - 16px) / 2);
 		}
+
+		.abcd {
+		}
 	}
 </style>
