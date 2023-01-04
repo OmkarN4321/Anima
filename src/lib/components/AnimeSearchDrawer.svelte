@@ -122,6 +122,8 @@
 					{/each}
 				</div>
 			</div>
+
+			<div class="drawer-content-footer" />
 		</div>
 	{/if}
 </div>
@@ -163,7 +165,7 @@
 
 	.drawer-content-body {
 		width: 100%;
-		height: calc(100vh - 76px);
+		height: calc(100vh - 92px);
 		padding: 0 1rem;
 		display: flex;
 		flex-direction: column;

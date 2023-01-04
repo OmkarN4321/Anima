@@ -22,8 +22,8 @@
 	};
 </script>
 
-<Splide aria-label="Popular anime" {options}>
-	{#if popularAnime}
+{#if popularAnime}
+	<Splide aria-label="Popular anime" {options}>
 		{#each popularAnime as anime, i (i)}
 			<SplideSlide>
 				<a href={`/animeInfo/${anime.id}`}>
@@ -57,8 +57,8 @@
 				</a>
 			</SplideSlide>
 		{/each}
-	{/if}
-</Splide>
+	</Splide>
+{/if}
 
 <style>
 	.card {
