@@ -164,6 +164,7 @@
 
 	@media only screen and (max-width: 640px) {
 		.card-display {
+			row-gap: 1.5rem;
 			column-gap: 1rem;
 		}
 
