@@ -7,6 +7,12 @@
 
 	const toggle = () => {
 		key = !key;
+
+		if (!key) {
+			document.getElementsByTagName("body")[0].style.overflow = "auto";
+		} else {
+			document.getElementsByTagName("body")[0].style.overflow = "hidden";
+		}
 	};
 
 	const search = async () => {
@@ -66,7 +72,7 @@
 				<div class="anime-search-results">
 					{#each searchResults as anime, i (i)}
 						<div class="card">
-							<a href={`/animeInfo/${anime.id}`}>
+							<a href={`/animeInfo/${anime.id}`} on:click={toggle}>
 								<img
 									class="card-image"
 									src={anime.coverImage.large}
@@ -260,6 +266,16 @@
 		.drawer-content {
 			width: 100vw;
 			left: 0;
+		}
+
+		.card-title {
+			font-size: 1rem;
+		}
+
+		.card-rating,
+		.card-episodes,
+		.card-season {
+			font-size: 0.75rem;
 		}
 	}
 </style>

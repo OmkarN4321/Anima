@@ -150,18 +150,6 @@
 		transition: all 0.2s ease-in-out;
 	}
 
-	@media only screen and (max-width: 1024px) {
-		.card-title {
-			font-size: 1rem;
-		}
-
-		.card-rating,
-		.card-episodes,
-		.card-season {
-			font-size: 0.75rem;
-		}
-	}
-
 	@media only screen and (max-width: 640px) {
 		.card-display {
 			row-gap: 1.5rem;
@@ -170,6 +158,16 @@
 
 		.card {
 			width: calc((100% - 16px) / 2);
+		}
+
+		.card-title {
+			font-size: 1rem;
+		}
+
+		.card-rating,
+		.card-episodes,
+		.card-season {
+			font-size: 0.75rem;
 		}
 	}
 </style>
