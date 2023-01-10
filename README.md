@@ -1,6 +1,6 @@
 # Anima
 
-#### An anime streaming and discovery web-app built on Nextjs.
+#### An anime streaming and discovery web-app built on SvelteKit.
 
 #### If this project helped you, a star would be appreciated.
 
