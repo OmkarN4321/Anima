@@ -30,4 +30,4 @@ npm run dev
 
 ## How it looks
 
-##### Just see it yourself - [Anima](https://animaa.vercel.app)
+##### Just see it for yourself - [Anima](https://animaa.vercel.app)
