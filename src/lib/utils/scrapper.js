@@ -1,5 +1,5 @@
-const URL = "https://www3.gogoanimes.fi/";
-const SEARCH = "https://www3.gogoanimes.fi/search.html?keyword";
+const URL = "https://gogoanimehd.io/";
+const SEARCH = "https://gogoanimehd.io/search.html?keyword";
 
 const options = {
 	headers: {
@@ -23,9 +23,8 @@ const getLink = async (title) => {
 	let res = await fetch(`${URL}/${title}`, options);
 	res = await res.text();
 
-	let snip = res.slice(res.indexOf('class="streamsb"'), res.indexOf('class="iconlayer-streamsb"'));
+	let snip = res.slice(res.indexOf("streamwish"), res.indexOf("doodstream"));
 	snip = snip.slice(snip.indexOf("https"), snip.indexOf("<i")).trim().slice(0, -2);
-	console.log(snip);
 
 	if (snip) {
 		return snip;
